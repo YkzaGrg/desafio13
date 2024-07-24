@@ -13,7 +13,7 @@ jobs:
       - name: Clonar repositorio
         uses: actions/checkout@v3
         with:
-          repository: https://github.com/YkzaGrg/BootCamp.git
+          repository: YkzaGrg/BootCamp
           path: repositorio 
 
       - name: Construir imagen
