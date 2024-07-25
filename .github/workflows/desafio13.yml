@@ -23,7 +23,7 @@ jobs:
 
     - name: Ejecutar contenedor Docker
       run: |
-        docker run -d --name servidor_web -p 8080:80 webserver2
+        docker run -d --name servidor_web -p 8080:80 webserver3
         sleep 10  # Esperar a que el contenedor esté listo
 
     - name: Test - Verificar respuesta del servidor
